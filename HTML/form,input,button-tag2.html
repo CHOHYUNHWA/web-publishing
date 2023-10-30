@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>폼 안의 요소들 그룹으로 묶기</h1>
+  <form action="./" method="get">
+    <fieldset>
+      <legend>반장</legend>
+      <label for="name_1">이름</label>
+      <input id="name_1" name="name_1" tyep="text">
+      <br><br>
+      <label for="age_1">나이</label>
+      <input id="age_1" name="age_1" tyep="text">
+    </fieldset>
+    <fieldset>
+      <legend>부반장</legend>
+      <label for="name_2">이름</label>
+      <input id="name_2" name="name_2" tyep="text"> 
+      <br><br>
+      <label for="age_2">나이</label>
+      <input id="age_2" name="age_2" tyep="text">
+    </fieldset>
+    <fieldset form="classForm" disabled>
+      <legend>서기</legend>
+      <label for="name_3">이름</label>
+      <input id="name_3" name="name_3" tyep="text">
+      <br><br>
+      <label for="age_3">나이</label>
+      <input id="age_3" name="age_3" tyep="text">
+    </fieldset>
+  </form>
+</body>
+</html>

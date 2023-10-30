@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>인풋 요소 공통(대부분) 속성</h2>
+  <form action="#">
+    <label for="vIp">value</label> <br>
+    <input type="text" value="지정됨" id="vIp"> <br>
+
+    <label for="autofocusIp">autofocus</label> <br>
+    <input type="text" name="" id="autofocusIp" placeholder="자동포커스 됨" autofocus> <br>
+
+    <label for="readonlyIp">readonly</label> <br>
+    <input type="text" name="" id="readonlyIp" value="읽기만 가능" readonly> <br>
+
+    <label for="requirdIp">required</label> <br>
+    <input type="text" name="" id="requirdIp" placeholder="필수 입력!" required> <br>
+
+    <label for="disabledIp">disabled</label> <br>
+    <input type="text" name="" id="disabledIp" placeholder="입력불가, 전송 안됨" disabled> <br>
+
+    <br>
+    <input name="fruit"
+          id="f_apple"
+          value="apple"
+          type="radio"
+    >
+    <label for="f_apple">사과</label>
+    <input name="fruit"
+          id="f_grape"
+          value="grape"
+          type="radio"
+    >
+    <label for="f_grape">포도</label>
+    <input name="fruit"
+          id="f_orange"
+          value="orange"
+          type="radio"
+    >
+    <label for="f_orange">오렌지(품절)</label>
+    <br>
+    <button type="submit">제출</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>textarea 태그</h2>
+  <form action="#">
+    <label id="textareaIp">메시지를 입력하세요.</label> <br>
+    <textarea name="" id="textareaIp" cols="30" rows="10" placeholder="글자를 입력해 주세요" minlength="4" maxlength="5"></textarea>
+    <br>
+    <button type="submit">제출</button>
+  </form>
+
+
+  <h2>옵션들을 사용하는 태그</h2>
+
+  <h3>select, option 태그</h3>
+  <label for="lang">언어</label>
+  <select id="lang">
+    <option value="">--언어 선택--</option>
+    <option value="html" selected>HTML</option>
+    <option value="css">CSS</option>
+    <option value="js">자바스크립트</option>
+    <option value="ts">타입스크립트</option>
+  </select>
+
+  <br><br>
+  <h3>optgroup</h3>
+
+  <label for="shopping"></label>
+  <select name="" id="shopping">
+    <optgroup label = "과일">
+      <option value="apple">사과</option>
+      <option value="orange">오렌지</option>
+      <option value="grape">포도</option>
+    </optgroup>
+    <optgroup label = "채소">
+      <option value="carrot">당근</option>
+      <option value="tomato">토마토</option>
+      <option value="eggplant">가지</option>
+    </optgroup>
+    <optgroup label="육류">
+      <option value="beef">소고기</option>
+      <option value="pork">돼지고기</option>
+      <option value="chiken">닭고기</option>
+    </optgroup>
+  </select>
+
+  <br><br>
+
+  <h3>datalist태그</h3>
+  <label for="job">현재 직업</label> <br>
+  <input list="jobs" id="job">
+  <datalist id="jobs">
+    <option value="학생"></option>
+    <option value="유튜버"></option>
+    <option value="군인"></option>
+  </datalist>
+
+  <br><br>
+
+  <h3>progress 태그</h3>
+  <progress
+    id="progressBar"
+    max="100"
+    value="50">
+    50%
+  </progress>
+
+  <br><br>
+
+  <h3>meter 태그</h3>
+
+  <meter 
+    min="0"
+    max="100"
+    low="33"
+    high="67"
+    optimum="50"
+    value="20"
+  >
+  20달러
+  </meter>
+
+  <meter 
+  min="0"
+  max="100"
+  low="33"
+  high="67"
+  optimum="50"
+  value="50"
+>
+50
+</meter>
+
+<meter 
+min="0"
+max="100"
+low="33"
+high="67"
+optimum="50"
+value="80"
+>
+80달러
+</meter>
+
+<br>
+
+<meter 
+min="0"
+max="100"
+low="33"
+high="67"
+optimum="10"
+value="20"
+>
+20달러
+</meter>
+
+<meter 
+min="0"
+max="100"
+low="33"
+high="67"
+optimum="10"
+value="50"
+>
+50
+</meter>
+
+<meter 
+min="0"
+max="100"
+low="33"
+high="67"
+optimum="10"
+value="80"
+>
+80달러
+</meter>
+
+</body>
+</html>
