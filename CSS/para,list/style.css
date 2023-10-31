@@ -1,0 +1,15 @@
+p{
+  text-align: left;
+  letter-spacing: 0;
+  word-spacing: 0;
+  line-height: 1rem;
+  text-indent: 1em;
+}
+
+ul{
+  list-style: square;
+}
+
+ul > li:first-child{
+  list-style: "!!";
+}

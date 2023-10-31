@@ -1,0 +1,29 @@
+.style-2{
+  color: slateblue;
+}
+p{
+  color: olivedrab;
+}
+span{
+  color:pink;
+}
+
+.blue{
+  color: violet;
+}
+
+p.blue{
+color:blue;
+}
+
+p.span{
+  color: darkblue;
+}
+
+#last{
+  color:red
+}
+
+span,p, .blue, #last{
+  text-decoration: underline;
+}
